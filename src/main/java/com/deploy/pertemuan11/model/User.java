@@ -15,6 +15,9 @@ import lombok.NoArgsConstructor;
 public class User {
 
     @Id
+    private String id;
+    private String username;
+    private String password;
 
     // AMAN: Menggunakan tipe data Profile, bukan String
     @OneToOne(mappedBy = "user", cascade = CascadeType.ALL)
