@@ -18,6 +18,9 @@ import lombok.NoArgsConstructor;
 public class Profile {
     @Id
     private String id;
+    private  String nama;
+    private  String alamat;
+
 
 }
 
